@@ -15,7 +15,7 @@ namespace BuggyApp
         [STAThread]
         private static void Main()
         {
-            ET.Initialize("dfe75b5e-ce0a-4175-a0e7-f5402ad164a0");
+            ET.Initialize("YOUR_API_KEY");
             ETSettings.SendMode = ESendMode.OnDemand;
             XmlConfigurator.Configure();
             Application.EnableVisualStyles();

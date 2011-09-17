@@ -11,6 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms", "WindowsForm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsPhone", "WP7\WindowsPhone.csproj", "{F2DCAA96-8D9C-488F-A1C3-CFF4E4211A0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServerSample", "WcfServerSample\WcfServerSample.csproj", "{A17931B6-9A38-4A20-8DFD-16A48AA8CA4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceClient", "WcfServiceClient\WcfServiceClient.csproj", "{032FAF52-58F1-4743-B020-8B77EA28039A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A17931B6-9A38-4A20-8DFD-16A48AA8CA4D} = {A17931B6-9A38-4A20-8DFD-16A48AA8CA4D}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +98,30 @@ Global
 		{F2DCAA96-8D9C-488F-A1C3-CFF4E4211A0F}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
 		{F2DCAA96-8D9C-488F-A1C3-CFF4E4211A0F}.Release|x64.ActiveCfg = Release|Any CPU
 		{F2DCAA96-8D9C-488F-A1C3-CFF4E4211A0F}.Release|x86.ActiveCfg = Release|Any CPU
+		{A17931B6-9A38-4A20-8DFD-16A48AA8CA4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17931B6-9A38-4A20-8DFD-16A48AA8CA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17931B6-9A38-4A20-8DFD-16A48AA8CA4D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A17931B6-9A38-4A20-8DFD-16A48AA8CA4D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A17931B6-9A38-4A20-8DFD-16A48AA8CA4D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A17931B6-9A38-4A20-8DFD-16A48AA8CA4D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A17931B6-9A38-4A20-8DFD-16A48AA8CA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17931B6-9A38-4A20-8DFD-16A48AA8CA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17931B6-9A38-4A20-8DFD-16A48AA8CA4D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A17931B6-9A38-4A20-8DFD-16A48AA8CA4D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A17931B6-9A38-4A20-8DFD-16A48AA8CA4D}.Release|x64.ActiveCfg = Release|Any CPU
+		{A17931B6-9A38-4A20-8DFD-16A48AA8CA4D}.Release|x86.ActiveCfg = Release|Any CPU
+		{032FAF52-58F1-4743-B020-8B77EA28039A}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{032FAF52-58F1-4743-B020-8B77EA28039A}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{032FAF52-58F1-4743-B020-8B77EA28039A}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{032FAF52-58F1-4743-B020-8B77EA28039A}.Debug|x64.ActiveCfg = Debug|x86
+		{032FAF52-58F1-4743-B020-8B77EA28039A}.Debug|x86.ActiveCfg = Debug|x86
+		{032FAF52-58F1-4743-B020-8B77EA28039A}.Debug|x86.Build.0 = Debug|x86
+		{032FAF52-58F1-4743-B020-8B77EA28039A}.Release|Any CPU.ActiveCfg = Release|x86
+		{032FAF52-58F1-4743-B020-8B77EA28039A}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{032FAF52-58F1-4743-B020-8B77EA28039A}.Release|Mixed Platforms.Build.0 = Release|x86
+		{032FAF52-58F1-4743-B020-8B77EA28039A}.Release|x64.ActiveCfg = Release|x86
+		{032FAF52-58F1-4743-B020-8B77EA28039A}.Release|x86.ActiveCfg = Release|x86
+		{032FAF52-58F1-4743-B020-8B77EA28039A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

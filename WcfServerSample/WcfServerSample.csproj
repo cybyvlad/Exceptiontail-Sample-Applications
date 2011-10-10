@@ -33,8 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ExceptionTail">
-      <HintPath>..\lib\ExceptionTail.dll</HintPath>
+    <Reference Include="ExceptionTail.Net35">
+      <HintPath>..\lib\ExceptionTail.Net35.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />

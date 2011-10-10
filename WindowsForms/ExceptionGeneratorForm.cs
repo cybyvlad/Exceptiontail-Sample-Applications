@@ -62,7 +62,7 @@ namespace BuggyApp
 
             var sent = 0;
 
-            for (var i = 1; i <= 20*1000*1000; i++)
+            for (var i = 1; i <= 5; i++)
             {
                 if (backgroundWorker.CancellationPending)
                 {

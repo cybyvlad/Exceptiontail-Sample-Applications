@@ -49,9 +49,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ExceptionTail.Wp">
-      <HintPath>..\lib\ExceptionTail.Wp.dll</HintPath>
-    </Reference>
+    <Reference Include="ExceptionTail.WindowsPhone, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Phone" />
     <Reference Include="Microsoft.Phone.Interop" />
     <Reference Include="System.ServiceModel.Web" />

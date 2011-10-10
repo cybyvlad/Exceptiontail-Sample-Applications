@@ -35,7 +35,7 @@ namespace WcfServerSample
 
         public void ApplyDispatchBehavior(ServiceDescription serviceDescription, ServiceHostBase serviceHostBase)
         {
-            ET.Initialize("56561561-fd2e-4f47-ba80-d2dd4001fd79");
+            ET.Initialize("YOUR_API_KEY");
             foreach (ChannelDispatcher channelDispatcher in serviceHostBase.ChannelDispatchers)
             {
                 channelDispatcher.ErrorHandlers.Add(this);

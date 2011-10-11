@@ -35,11 +35,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ExceptionTail">
-      <HintPath>..\lib\ExceptionTail.dll</HintPath>
+    <Reference Include="ExceptionTail.Log4netAppender.Net20">
+      <HintPath>..\lib\ExceptionTail.Log4netAppender.Net20.dll</HintPath>
     </Reference>
-    <Reference Include="ExceptionTail.Log4netAppender">
-      <HintPath>..\lib\ExceptionTail.Log4netAppender.dll</HintPath>
+    <Reference Include="ExceptionTail.Net20">
+      <HintPath>..\lib\ExceptionTail.Net20.dll</HintPath>
     </Reference>
     <Reference Include="log4net">
       <HintPath>..\lib\log4net.dll</HintPath>
